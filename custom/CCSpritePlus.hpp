@@ -20,9 +20,9 @@ class SpritePlus : public cocos2d::Sprite {
     uint8_t m_spritePlusFlags;
 public:
     enum {
-        SPRITE_PLUS_NONE = 1 << 0,
-        SPRITE_PLUS_HAS_FOLLOWER = 1 << 1,
-        SPRITE_PLUS_PROPOGATE_FLIP_CHANGES = 1 << 2
+        SPRITE_PLUS_NONE = 0,
+        SPRITE_PLUS_HAS_FOLLOWER = 1,
+        SPRITE_PLUS_PROPOGATE_FLIP_CHANGES = 2
     };
 
     SpritePlus(): 
